@@ -116,7 +116,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/Single_Bed.gltf',
+			src: '../dist/gltf/Single_Bed.gltf',
 			position: {
 				x: -0.3,
 				y: 0,
@@ -135,7 +135,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/SHOE_CABINET.gltf',
+			src: '../dist/gltf/SHOE_CABINET.gltf',
 			position: {
 				x: 1.5,
 				y: 0,
@@ -153,7 +153,7 @@ export default function example() {
 	// houses.push(new House({
 	// 	gltfloader,
 	// 	scene,
-	// 	src: '../src/gltf/earth.glb',
+	// 	src: '../dist/gltf/earth.glb',
 	// 	position: {
 	// 		x: -2,
 	// 		y: 0,
@@ -171,7 +171,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/black_leather_chair.gltf',
+			src: '../dist/gltf/black_leather_chair.gltf',
 			position: {
 				x: -2,
 				y: 0,
@@ -190,7 +190,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/tv.glb',
+			src: '../dist/gltf/tv.glb',
 			position: {
 				x: -2,
 				y: 0,
@@ -214,7 +214,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/pouf.glb',
+			src: '../dist/gltf/pouf.glb',
 			position: {
 				x: 1.4,
 				y: 0.1,
@@ -233,7 +233,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '../src/gltf/Books_Magazines.gltf',
+			src: '../dist/gltf/Books_Magazines.gltf',
 			position: {
 				x: 1.4,
 				y: 0.4,
