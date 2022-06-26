@@ -18,7 +18,7 @@ export default function example() {
 
 	// 텍스쳐 이미지 로드
 	const floorLoader = new THREE.TextureLoader();
-	const texture = floorLoader.load('/images/brown.jpg');
+	const texture = floorLoader.load('./images/brown.jpg');
 	texture.wrapS = THREE.RepeatWrapping;
 
 	//-----texture 이미지 로드
@@ -41,7 +41,7 @@ export default function example() {
 	renderer.shadowMap.enabled = true;
 
 	// ------skybox
-	scene.background = textureLoader.setPath('/images/').load([
+	scene.background = textureLoader.setPath('./images/').load([
 		// + - 순서로 로드
 		'px.png',
 		'nx.png',
@@ -135,7 +135,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '/gltf/SHOE_CABINET.gltf',
+			src: './gltf/SHOE_CABINET.gltf',
 			position: {
 				x: 1.5,
 				y: 0,
@@ -171,7 +171,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '/gltf/black_leather_chair.gltf',
+			src: './gltf/black_leather_chair.gltf',
 			position: {
 				x: -2,
 				y: 0,
@@ -190,7 +190,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '/gltf/tv.glb',
+			src: './gltf/tv.glb',
 			position: {
 				x: -2,
 				y: 0,
@@ -214,7 +214,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '/gltf/pouf.glb',
+			src: './gltf/pouf.glb',
 			position: {
 				x: 1.4,
 				y: 0.1,
@@ -233,7 +233,7 @@ export default function example() {
 		new House({
 			gltfloader,
 			scene,
-			src: '/gltf/Books_Magazines.gltf',
+			src: './gltf/Books_Magazines.gltf',
 			position: {
 				x: 1.4,
 				y: 0.4,
