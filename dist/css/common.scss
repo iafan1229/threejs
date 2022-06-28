@@ -380,6 +380,7 @@ button:hover::after {
 			}
 			p {
 				padding: 1vh 0;
+				font-size: 3vmin;
 				font-weight: normal;
 				color: gray;
 			}
@@ -445,6 +446,12 @@ button:hover::after {
 	}
 	.pop .cont {
 		padding: 23px;
+	}
+	.pop .cont .portfolio p,
+	.pop .cont .skills p,
+	.pop .cont .profile p,
+	.pop .cont .blog p {
+		font-size: 3vmin;
 	}
 }
 
