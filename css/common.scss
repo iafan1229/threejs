@@ -5,11 +5,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Humanbumsuk';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'BMJUA';
+	font-family: 'Humanbumsuk';
 }
 li {
 	list-style: none;
@@ -77,7 +84,8 @@ img {
 	transform: translateX(-50%);
 	z-index: 2;
 	p {
-		font-family: 'BMJUA';
+		// font-family: 'BMJUA';
+		font-family: 'Humanbumsuk';
 		font-size: 6vmin;
 		color: #fff;
 	}
@@ -160,10 +168,15 @@ img {
 		&.cont2 {
 			p {
 				color: blue;
+				font-family: 'Humanbumsuk';
+				span {
+					font-weight: bold;
+				}
 			}
 		}
 		&.cont3 {
 			p {
+				font-family: 'Humanbumsuk';
 				color: green;
 			}
 		}
@@ -187,10 +200,11 @@ img {
 button,
 button::after {
 	font-family: 'BMJUA';
-	min-width: 20vw;
+	padding-left: 5px;
+	padding-right: 5px;
 	height: 30px;
 	margin: 0 auto;
-	font-size: 20px;
+	font-size: 16px;
 	background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
 	border: 0;
 	color: #fff;
@@ -344,7 +358,7 @@ button:hover::after {
 				box-shadow: inset 0px 0px 5px white;
 			}
 			h3 {
-				font-size: 30px;
+				font-size: 20px;
 			}
 		}
 		.portfolio,
@@ -401,13 +415,45 @@ button:hover::after {
 				}
 			}
 		}
+		.profile {
+			h3 {
+				font-size: 3vmin;
+				text-align: left;
+				padding-bottom: 10px;
+			}
+			h4 {
+				text-align: left;
+				font-size: 3vmin;
+				padding-bottom: 7px;
+			}
+			p {
+				padding-bottom: 10px;
+				font-size: 20px;
+				font-family: 'Humanbumsuk';
+			}
+		}
 		.portfolio {
 			text-align: left;
+			ul {
+				li {
+					padding-bottom: 20px;
+				}
+			}
+			h3 {
+				font-weight: bold;
+				font-size: 19px;
+				font-family: 'BMJUA';
+			}
 			h3:nth-of-type(2) {
 				padding-top: 20px;
 			}
-			a {
+			p {
+				font-size: 17px;
+				font-family: inherit;
+			}
+			a.github {
 				display: inline-block;
+				font-family: 'BMJUA';
 				color: #000;
 				&:hover {
 					text-decoration: underline;
