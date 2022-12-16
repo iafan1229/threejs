@@ -1,6 +1,5 @@
 <p>프론트엔드 개발자 이하영의 프로필 자기소개 페이지입니다.</p>
 
-<h2>Getting Started</h2>
 <h3><a href="https://iafan1229.github.io/threejs/" target="_blank">포트폴리오 링크 바로가기</a></h3>
 
 <h3>사용 설명서</h3>
