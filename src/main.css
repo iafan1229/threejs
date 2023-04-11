@@ -1,14 +1,19 @@
 * {
 	margin: 0;
-	padding:0;
-	box-sizing:border-box;
+	padding: 0;
+	box-sizing: border-box;
 }
-li {list-style: none;}
-a {text-decoration: none;}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
 
 @font-face {
 	font-family: 'BMJUA';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff')
+		format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -33,21 +38,56 @@ a {text-decoration: none;}
 	font-size: 10vmin;
 }
 
-.section .face{display: block;width: 100px;height: 100px;background:url(./images/face.png) no-repeat center/cover; border-radius:50%;border:5px solid #ddd;padding:10px;}
-.section h2 span.title{display: block;font-size:5vmin;}
+.section .face {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(./images/face.png) no-repeat center/cover;
+	border-radius: 50%;
+	border: 5px solid #ddd;
+	padding: 10px;
+}
+.section h2 span.title {
+	display: block;
+	font-size: 5vmin;
+}
 
 .guide {
 	position: fixed;
 	display: flex;
-	top:80vh;
-	left:50%;
-	transform:translateX(-50%);
-	z-index:2;
+	top: 80vh;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
 }
-.guide p{font-family: 'BMJUA';font-size:6vmin;color:#fff;}
-.gnb {z-index:5;position:fixed;right:10px;bottom:10px;padding-right:30px;
-	background: linear-gradient(to bottom, black, rgb(51, 50, 50));font-family: 'Noto sans KR';border-radius:10px;
+.guide p {
+	font-family: 'BMJUA';
+	font-size: 6vmin;
+	color: #fff;
 }
-.gnb li{margin-left:5vmin;padding:30px 0;}
-.gnb li.on a {color:rgba(255, 255, 0, 0.64);}
-.gnb li a {color:#fff;font-family: 'BMJUA';font-size:4vmin;}
+.gnb {
+	z-index: 5;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	padding-right: 30px;
+	background: linear-gradient(to bottom, black, rgb(51, 50, 50));
+	font-family: 'Noto sans KR';
+	border-radius: 10px;
+}
+.gnb li {
+	margin-left: 5vmin;
+	padding: 30px 0;
+}
+.gnb li.on a {
+	color: rgba(255, 255, 0, 0.64);
+}
+.gnb li a {
+	color: #fff;
+	font-family: 'BMJUA';
+	font-size: 4vmin;
+}
+
+.loading p:last-child {
+	padding-top: 30vh;
+}
