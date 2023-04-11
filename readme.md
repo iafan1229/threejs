@@ -1,5 +1,7 @@
 <p>프론트엔드 개발자 이하영의 프로필 자기소개 페이지</p>
-
+<br><br>
+<img src="https://postfiles.pstatic.net/MjAyMjEyMTVfODUg/MDAxNjcxMTA3MzgzMTQ2.EGtvT6FHguneVOLn-PSBJJo6YCQhZd9s-KYzyUU-Fg8g.6iJT_7x-_lzDNPnCPjRdk00ZYrjRn2xbxTUYMDdt4Qog.GIF.home124/GIF_2022-12-15_%EC%98%A4%ED%9B%84_9-26-43.gif?type=w773">
+<br><br>
 <h3><a href="https://iafan1229.github.io/threejs/" target="_blank">포트폴리오 링크 바로가기</a></h3>
 
 <h1>사용 설명서</h1>
