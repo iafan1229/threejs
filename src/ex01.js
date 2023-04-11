@@ -97,7 +97,7 @@ export default function example() {
 		document.querySelector('.loading').style.display = 'block';
 	};
 	manager.onProgress = function (url, itemsLoaded, itemsTotal) {
-		document.querySelector('.loading > p:first-child').textContent =
+		document.querySelector('.loading > p').textContent =
 			'Loading file' +
 			'.\nLoaded ' +
 			itemsLoaded +
@@ -105,8 +105,8 @@ export default function example() {
 			itemsTotal +
 			' files.';
 
-		document.querySelector('.loading > p:last-child').innerHTML =
-			"<a href='https://threejs-hayoung.netlify.app/'>로딩이 3분이상 걸릴경우 이곳을 눌러 netlify 링크로 이동해주세요.";
+		// document.querySelector('.loading > p:last-child').innerHTML =
+		// 	"<a href='https://threejs-hayoung.netlify.app/'>로딩이 3분이상 걸릴경우 이곳을 눌러 netlify 링크로 이동해주세요.";
 	};
 	manager.onLoad = function () {
 		document.querySelector('.loading > p').textContent = 'Loading complete!';
