@@ -97,13 +97,14 @@ export default function example() {
 		document.querySelector('.loading').style.display = 'block';
 	};
 	manager.onProgress = function (url, itemsLoaded, itemsTotal) {
-		document.querySelector('.loading > p').textContent =
-			'Loading file' +
-			'.\nLoaded ' +
-			itemsLoaded +
-			' of ' +
-			itemsTotal +
-			' files.';
+		document.querySelector('.loading > p').innerHTML =
+			"<a href='https://threejs-hayoung.netlify.app/'>github page 속도가 너무 느립니다! 다음을 눌러 제 포트폴리오의 다른 url로 이동해주세요.</a>";
+		// 'Loading file' +
+		// '.\nLoaded ' +
+		// itemsLoaded +
+		// ' of ' +
+		// itemsTotal +
+		// ' files.';
 	};
 	manager.onLoad = function () {
 		document.querySelector('.loading > p').textContent = 'Loading complete!';
